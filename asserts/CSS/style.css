@@ -14,8 +14,8 @@ body {
 .containerPrincipal {
   width: 100vw;
   height: 100vh;
-  background-color: #DFD3C2;
-  color: #39260B;
+  background-color: #ffffff;
+  color: #000000;
 }
 .navbar {
   display: flex;
@@ -44,11 +44,11 @@ body {
 }
 
 .menu .active {
-  color: #E57513; 
+  color: #ae89c3; 
 }
 
 .menu li:hover a{
-  background-color: #d18d52;
+  background-color: #ae89c3;
   color: #322f19;
 }
 .menu li a:hover {
@@ -70,13 +70,14 @@ h1 {
 }
 
 .info-content span {
-  color: #ce6000;
+  color: #ae89c3;
   margin: auto;
 }
 
 .download-cv {
   padding: 10px 20px;
-  background-color: #E57513;
+  background-color: #000000;
+  color: #ffffff;
   border: none;
   border-radius: 20px;
   margin-top: 10px;
@@ -92,7 +93,7 @@ h1 {
 }
 
 .main img {
-  border:  3px solid #C69468;
+  border:  3px solid #ffffff;
   border-radius: 3rem;
   max-width: 100%;
   max-height: 600px;
@@ -104,6 +105,7 @@ h1 {
 
 .about {
   display: grid;
+  background-color: #ae89c3;
   grid-template-columns: repeat(10, 1fr);
   width: 100vw;
   align-items: center;
@@ -139,8 +141,8 @@ h1 {
 .portafolio,
 .contact-section {
   width: 100vw;
-  background-color: #DFCFB5;
-  color: #DFCFB5;
+  background-color: #dfbeb5;
+  color: #dfc1b5;
 }
 
 .portafolio-heading {
@@ -154,7 +156,7 @@ h1 {
 .portafolio-heading h2,
 .contact-heading h2 {
   font-size: 2.5em;
-  color: #DFCFB5;
+  color: #d6473d;
 }
 
 .portafolio .container {
@@ -300,8 +302,8 @@ h1 {
 .portafolio,
 .contact-section {
   width: 100vw;
-  background-color: #DFCFB5;
-  color: #fff;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .portafolio-heading {
@@ -330,7 +332,7 @@ h1 {
 
 .card {
   width: 300px;
-  background-color: #39260B;
+  background-color: #ae89c3;
   margin: 1em;
 }
 
@@ -377,7 +379,7 @@ h1 {
   width: 100vw;
   height: 200px;
   padding: 2em;
-  background-color: #391d0b;
+  background-color: #ae89c3;
 }
 
 .footer-content h2 {
